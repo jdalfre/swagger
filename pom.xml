@@ -7,15 +7,12 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <swagger-ui.version>3.22.2</swagger-ui.version>
       <openapi-value>http://localhost:8080/services/api-docs/openapi.xml</openapi-value>
-      <!--
-      	<openapi-value>https://preprod.aidodys.com:8443/services/api-docs/openapi.xml</openapi-value>
-        -->
    </properties>
    <parent>
       <groupId>org.idempiere</groupId>
       <artifactId>org.idempiere.parent</artifactId>
-      <version>6.2.0-SNAPSHOT</version>
-      <relativePath>../../../../idempiereSource/idempiere/org.idempiere.parent/pom.xml</relativePath>
+      <version>8.1.0-SNAPSHOT</version>
+      <relativePath>../org.idempiere.parent/pom.xml</relativePath>
    </parent>
    <packaging>eclipse-plugin</packaging>
    <build>
